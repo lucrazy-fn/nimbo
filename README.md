@@ -58,6 +58,12 @@ O projeto não precisa de instalação, banco de dados ou etapa de build.
 
 As personalizações ficam no `localStorage` do navegador. O som é sintetizado localmente com Web Audio API e não depende de faixas protegidas por direitos autorais.
 
+## Sincronização entre dispositivos
+
+Na área de Configurações, crie uma conta ou entre com seu e-mail e senha. Use a mesma conta no computador e no celular para sincronizar a rotina, os estudos, os mapas mentais e as preferências.
+
+O modo local continua disponível quando a pessoa não estiver conectada. Os dados da conta ficam protegidos por políticas de acesso individuais no Supabase.
+
 ## Publicação
 
 O repositório de teste está disponível em [github.com/lucrazy-fn/nimbo](https://github.com/lucrazy-fn/nimbo).
