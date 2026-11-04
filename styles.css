@@ -27,4 +27,5 @@
 .mind-node{pointer-events:auto;touch-action:none}
 .mind-mode-button{border:1px solid rgba(168,229,255,.35);background:transparent;color:var(--muted);border-radius:50px;padding:7px 11px;font:10px Manrope;cursor:pointer}.mind-mode-button.active{background:var(--accent);color:#13232d;border-color:var(--accent)}.mind-map.resize-mode .mind-node{cursor:nwse-resize}.mind-map.move-mode .mind-node{cursor:grab}
 .app-opening.awaiting-name{display:none}
+.cloud-sync-panel{grid-column:1 / -1}.cloud-sync-intro{color:var(--muted);font-size:12px;line-height:1.6;margin:0 0 16px;max-width:620px}.cloud-sync-fields{display:grid;grid-template-columns:1fr 1fr;gap:10px}.cloud-sync-fields input{margin:0}.cloud-sync-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.cloud-sync-actions button{padding:10px 14px}.cloud-sync-actions .cloud-signout{margin-left:auto}.cloud-sync-status{display:block;margin-top:13px;color:var(--muted);font-size:10px}.cloud-sync-status.connected{color:var(--accent-2)}.cloud-sync-status.error{color:#ffb5a7}@media(max-width:680px){.cloud-sync-fields{grid-template-columns:1fr}.cloud-sync-actions .cloud-signout{margin-left:0}}
 
