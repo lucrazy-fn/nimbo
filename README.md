@@ -14,30 +14,35 @@ O Nimbo foi criado para juntar planejamento pessoal, estudos e foco em uma exper
 4. Anexos de imagens e links de apoio nas atividades.
 5. Progresso diário e tempo intencional concluído.
 6. Tela de abertura personalizada com nome, horário, temperatura e condição do céu.
-7. Tema claro e tema escuro com identidade visual própria.
+7. Tema automático, claro e escuro com identidade visual própria.
 8. Mapa mental com múltiplos mapas, ideias, imagens, links e conexões curvas.
 9. Modo para mover ideias e modo separado para redimensionar os cards.
 10. Linhas suaves, retas ou tracejadas com opção de animação.
 11. Área de estudos com timer de foco, notas escolares, cartões de revisão e biblioteca de referências.
 12. Guias e sites personalizados organizados por assunto.
-13. Som ambiente gerado localmente com controle de reprodução, volume e silêncio.
-14. Personalizações salvas automaticamente no navegador.
+13. Página Atmosfera com paisagens sonoras e música original gerada localmente.
+14. Volume geral, volume do ambiente, volume da música, seleção de paisagem e play/pause explícito.
+15. Objetivos com progresso real, prazo, categorias, conclusão e exclusão.
+16. Estudos com sessões de foco, histórico de minutos e notas de revisão persistidas.
+17. Estados reais na rotina: próxima, em andamento, concluída, adiada, ignorada e pendente.
+18. Personalizações salvas automaticamente no navegador e sincronizadas com segurança quando a conta estiver conectada.
 
 ## Preset inicial
 
 O projeto começa com uma rotina editável inspirada no plano 2027:
 
-1. Escola das 06:00 às 12:50.
-2. Almoço e descanso.
-3. Estudos.
-4. Treino de xadrez.
-5. Exercício físico.
-6. Partidas rapid diárias.
+1. Acordar às 05:30.
+2. Escola e deslocamento das 06:00 às 12:50, de segunda a sexta.
+3. Almoço e descanso.
+4. Estudos escolares.
+5. Treino de xadrez com partidas rapid todos os dias.
+6. Exercício físico inicialmente três vezes por semana.
 7. Análise das partidas.
 8. Programação por 30 minutos.
 9. Inglês por 30 minutos.
-10. Lazer.
-11. Sono às 21:00.
+10. Tempo livre, jantar e lazer.
+11. Preparação para o dia seguinte.
+12. Sono às 21:00.
 
 ## Como executar
 
@@ -56,7 +61,9 @@ O projeto não precisa de instalação, banco de dados ou etapa de build.
 
 ## Privacidade
 
-As personalizações ficam no `localStorage` do navegador. O som é sintetizado localmente com Web Audio API e não depende de faixas protegidas por direitos autorais.
+As personalizações ficam no `localStorage` do navegador. O som é sintetizado localmente com Web Audio API e não depende de faixas protegidas por direitos autorais. O áudio nunca começa automaticamente ao abrir o site.
+
+O Nimbo mantém uma versão do estado e um horário de atualização. Ao entrar na conta, a aplicação compara a cópia local com a cópia remota antes de escolher qual carregar, reduzindo o risco de uma versão antiga substituir alterações recentes.
 
 ## Sincronização entre dispositivos
 
