@@ -1,26 +1,66 @@
-# Nimbo — rotina com presença
+# Nimbo
 
-Aplicação estática de planejamento pessoal com preset inicial do plano 2027.
+Um espaço visual para organizar a rotina, estudar melhor e transformar planos em próximos passos.
 
-## Executar
+## Sobre o projeto
 
-Abra `index.html` diretamente no navegador ou sirva a pasta `outputs` com qualquer servidor estático. Não há dependências de build.
+O Nimbo foi criado para juntar planejamento pessoal, estudos e foco em uma experiência leve e agradável. A interface combina uma atmosfera azul céu, clima dinâmico, animações suaves e ferramentas editáveis para acompanhar o dia sem deixar tudo pesado.
 
-## Incluído
+## Recursos
 
-- Preset editável com escola, estudos, xadrez, exercício, programação, inglês, lazer e sono.
-- Persistência local via `localStorage`.
-- Visão diária, semanal e biblioteca de atividades.
-- Checklist, progresso, editor com horários, duração, categoria e dias da semana.
-- Tela de boas-vindas com nome configurável.
-- Tema noturno/claro com atmosfera azul-céu e layout responsivo.
-- Abertura visual com sol, lua, nuvens e estado climático por horário/localização, usando fallback local.
-- Editor dedicado acionado ao clicar na atividade, com criar, editar, excluir, categoria, descrição, dias e horários.
-- Anexos de imagem locais e links de apoio persistidos no navegador.
-- Estúdio de aprendizagem com mapa mental editável, cartões de estudo de xadrez e bloco de notas escolar.
-- Ideias do mapa e notas salvas junto das personalizações locais.
-- Ambiente de estudo com timer de foco de 25 minutos e biblioteca de referências por assunto.
-- Sites e guias personalizados podem ser adicionados, filtrados e abertos diretamente.
-- Cartões de estudo personalizados podem ser criados, editados e excluídos.
-- Som ambiente sintético via Web Audio API, iniciado somente por ação explícita, com pausa e volume.
+1. Rotina diária com horários, duração, categorias, dias da semana e checklist.
+2. Visão semanal para acompanhar o ritmo dos próximos dias.
+3. Editor completo para criar, editar e excluir atividades.
+4. Anexos de imagens e links de apoio nas atividades.
+5. Progresso diário e tempo intencional concluído.
+6. Tela de abertura personalizada com nome, horário, temperatura e condição do céu.
+7. Tema claro e tema escuro com identidade visual própria.
+8. Mapa mental com múltiplos mapas, ideias, imagens, links e conexões curvas.
+9. Modo para mover ideias e modo separado para redimensionar os cards.
+10. Linhas suaves, retas ou tracejadas com opção de animação.
+11. Área de estudos com timer de foco, notas escolares, cartões de revisão e biblioteca de referências.
+12. Guias e sites personalizados organizados por assunto.
+13. Som ambiente gerado localmente com controle de reprodução, volume e silêncio.
+14. Personalizações salvas automaticamente no navegador.
+
+## Preset inicial
+
+O projeto começa com uma rotina editável inspirada no plano 2027:
+
+1. Escola das 06:00 às 12:50.
+2. Almoço e descanso.
+3. Estudos.
+4. Treino de xadrez.
+5. Exercício físico.
+6. Partidas rapid diárias.
+7. Análise das partidas.
+8. Programação por 30 minutos.
+9. Inglês por 30 minutos.
+10. Lazer.
+11. Sono às 21:00.
+
+## Como executar
+
+Abra o arquivo `index.html` no navegador.
+
+Também é possível publicar a pasta como um site estático no GitHub Pages, Netlify, Vercel ou qualquer serviço compatível com HTML, CSS e JavaScript puros.
+
+O projeto não precisa de instalação, banco de dados ou etapa de build.
+
+## Estrutura
+
+1. `index.html` contém a estrutura das telas e componentes.
+2. `styles.css` contém a identidade visual, os efeitos e o layout responsivo.
+3. `app.js` contém a rotina, o mapa mental, o estúdio, o clima, o áudio e a persistência local.
+4. `logo.svg` contém a marca visual do Nimbo.
+
+## Privacidade
+
+As personalizações ficam no `localStorage` do navegador. O som é sintetizado localmente com Web Audio API e não depende de faixas protegidas por direitos autorais.
+
+## Publicação
+
+O repositório de teste está disponível em [github.com/lucrazy-fn/nimbo](https://github.com/lucrazy-fn/nimbo).
+
+Quando o GitHub Pages estiver ativado, a aplicação poderá ser acessada em [lucrazy-fn.github.io/nimbo](https://lucrazy-fn.github.io/nimbo/).
 
